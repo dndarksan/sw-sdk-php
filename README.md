@@ -1469,7 +1469,7 @@ Ejemplo de uso:
 
 ```php
 require_once 'SWSDK.php';
-use SWServices\PDF\PDFService as pdfService;
+use SWServices\PDF\PdfService as pdfService;
 
     $xml = "<?xml version='1.0' encoding='utf-8'?> <cfdi:Comprobante......";
     $logo = "JP39LSM5mdbtAd1...........";
@@ -1487,7 +1487,7 @@ use SWServices\PDF\PDFService as pdfService;
 Plantilla con datos adicionales
 ```php
 require_once 'SWSDK.php';
-use SWServices\PDF\PDFService as pdfService;
+use SWServices\PDF\PdfService as pdfService;
 
     $xml = "<?xml version='1.0' encoding='utf-8'?> <cfdi:Comprobante......";
     $logo = "JP39LSM5mdbtAd1...........";
@@ -1533,7 +1533,7 @@ Ejemplo de uso
 ```php
 require_once 'SWSDK.php';
 
-use SWServices\PDF\PDFService as pdfService;
+use SWServices\PDF\PdfService as pdfService;
 
     $uuid = "604729a6-a1d9-4969-b35f-e7d04c7ad75c";
     $params = array(
@@ -1550,7 +1550,7 @@ Con datos adicionales
 ```php
 require_once 'SWSDK.php';
 
-use SWServices\PDF\PDFService as pdfService;
+use SWServices\PDF\PdfService as pdfService;
     //Si se cuentan con distintos templateId, 
     //es necesario especificarlo
     $extras =  array(
@@ -1799,7 +1799,7 @@ Este método recibe los siguientes parámetros:
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1826,7 +1826,7 @@ Este método recibe los siguientes parámetros:
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1853,7 +1853,7 @@ Este método recibe los siguientes parámetros:
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1879,7 +1879,7 @@ Este método recibe los siguientes parámetros:
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1915,7 +1915,7 @@ Recibe el contenido de un **XML** sin sellar en formato **String** se pasa un pa
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1943,7 +1943,7 @@ Recibe el contenido de un **XML** sin sellar en formato **String** se pasa un pa
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1971,7 +1971,7 @@ Recibe el contenido de un **XML** sin sellar en formato **String** se pasa un pa
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
@@ -1999,7 +1999,7 @@ Recibe el contenido de un **XML** sin sellar en formato **String** se pasa un pa
 <?php
     require_once 'SWSDK.php';
 
-    use SWServices\PDF\PDFService as pdfService;
+    use SWServices\PDF\PdfService as pdfService;
     use SWServices\Stamp\StampService as StampService;
     use SWServices\Stamp\EmisionTimbrado as EmisionTimbrado;
 
